@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKN Jenius</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="bg-cremmuda">
+    <!-- Navbar Section Start -->
+    <header class="w-full absolute top-0 left-0 flex items-center z-10">
+        <div class="container px-2 xl:px-20">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#">
+                        <h1 class="text-4xl p-2 font-bold text-biru">SMK<span class="text-slate-800">NJ</span></h1>
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block pr-5 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-abu shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#profil" class="text-lg text-biru py-2 mx-8 flex hover:underline">Profil</a>
+                            </li>
+                            <li class="group">
+                                <a href="visimisi.html" class="text-lg text-biru py-2 mx-8 flex hover:underline">Visi-Misi</a>
+                            </li>
+                            <li class="group">
+                                <a href="#jurusan" class="text-lg text-biru py-2 mx-8 flex hover:underline">Jurusan</a>
+                            </li>
+                            <li class="group">
+                                <a href="#bekerjasama" class="text-lg text-biru py-2 mx-8 flex hover:underline">Bekerjasama</a>
+                            </li>
+                            <li class="group">
+                                <a href="#berita" class="text-lg text-biru py-2 mx-8 flex hover:underline">Berita</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="xl:pl-32 lg:pl-16 lg:static lg:right-0 absolute right-20">
+                        <a href="contact.html" class="px-5 py-2 text-cremmuda bg-birumuda rounded-3xl hover:bg-biru transition duration-500">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar Section End -->
+
+    <!-- Main Section Start -->
+    <section id="main">
+        <div class="pt-24 px-10 flex flex-wrap">
+            <div class="w-full lg:w-1/2 lg:px-16">
+                <h1 class="text-5xl font-extrabold lg:text-6xl md:pt-3 lg:pt-5 xl:pt-14 text-slate-800">
+                    SMK <span class="text-birumuda">Negeri</span><br><span class="text-birumuda">Jenius</span>
+                </h1>
+                <p class="text-slate-400 mt-5 w-3/4">
+                    Sekolah adalah tempat mencetak penerus bangsa yang  berkualitas dan berprestasi. Maka dari itu sekolahkanlah Putra-Putri Anda di SMKN Juara yang sudah terjamin Kualitasnya!
+                </p>
+                <div class="mt-4 flex items-center">
+                    <!-- Youtube -->
+                    <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-400 text-slate-400 hover:border-biru hover:bg-biru hover:text-white transition duration-500">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-400 text-slate-400 hover:border-biru hover:bg-biru hover:text-white transition duration-500">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                    </a>
+                </div>
+                <div class="mt-7">
+                    <a href="#profil" class="px-5 py-3 text-slate-800 bg-birumuda rounded-3xl hover:bg-biru transition duration-500">Selengkapnya..</a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 pt-12 lg:pt-12 xl:pt-7">
+                <img src="src/img/sekolah.jpg" alt="" class="w-[400px] md:w-[600px] rounded-2xl border-4 border-birumuda">
+            </div>
+        </div>
+    </section>
+    <!-- Main Section End -->
+
+    <!-- Profile Section Start -->
+    <section id="profil">
+        <div class="w-full pt-20 pb-16">
+            <div class="container mx-auto pt-12">
+                <div class="mb-16 text-center">
+                    <h1 class="text-3xl font-semibold text-slate-800">SMKN <span class="text-biru">JUARA</span></h1>
+                    <h1 class="font-extrabold text-slate-800">___________</h1>
+                    <h2 class="font-extrabold text-5xl mt-4 text-slate-800">AKREDITASI : A</h2>
+                </div>
+                <div class="w-full lg:flex lg:gap-x-5 lg:px-5">
+                    <div class="lg:w-1/4 p-4 mt-3 flex flex-col items-center justify-center" data-aos="fade-down" data-aos-duration="400">
+                        <div class="mb-5">
+                            <i class="fa fa-computer text-center text-[100px]"></i>
+                        </div>
+                        <div class="text-center">
+                            <h1 class="font-bold text-xl">Fasilitas Lengkap</h1>
+                            <p class="text-slate-600">Penunjang belajar dengan<br>kualitas Terbaik</p>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 p-4 mt-3 flex flex-col items-center justify-center" data-aos="fade-down" data-aos-duration="800">
+                        <div class="mb-5">
+                            <i class="fa fa-building text-[100px]"></i>
+                        </div>
+                        <div class="text-center">
+                            <h1 class="font-bold text-xl">Lingkungan Nyaman</h1>
+                            <p class="text-slate-400">Berada di lingkungan yang<br>nyaman dan asri</p>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 p-4 mt-3 flex flex-col items-center justify-center" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="mb-5">
+                            <i class="fa fa-chalkboard-user text-[100px]"></i>
+                        </div>
+                        <div class="text-center">
+                            <h1 class="font-bold text-xl">Guru Terbaik</h1>
+                            <p class="text-slate-400">Guru dengan pengalaman<br>yang terjamin</p>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 p-4 mt-3 flex flex-col items-center justify-center" data-aos="fade-down" data-aos-duration="1200">
+                        <div class="mb-5">
+                            <i class="fa fa-handshake text-[100px]"></i>
+                        </div>
+                        <div class="text-center">
+                            <h1 class="font-bold text-xl">Kerjasama Luas</h1>
+                            <p class="text-slate-400">Dapat kesempatan kerja<br>yang sangat terjamin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Profile Section End -->
+
+    <!-- Jurusan Section Start -->
+    <section id="jurusan" class="bg-abu">
+        <div class="w-full py-24">
+            <div class="container mx-auto flex flex-col items-center">
+                <div class="text-center mx-auto mb-6 lg:mb-4">
+                    <h1 class="text-5xl font-semibold text-biru lg:pt-3">Jurusan</h1>
+                    <h1 class="font-extrabold text-slate-800">___________</h1>
+                </div>
+                <div class="lg:flex lg:mt-10">
+                    <div class="mb-12 lg:mt-8 sm:flex sm:px-2 md:px-5 lg:px-7 xl:px-10" data-aos="fade-down" data-aos-duration="400">
+                        <div class="flex flex-col h-[350px] w-[300px] rounded-lg mx-auto shadow-2xl">
+                            <div class="py-5 mx-auto">
+                                <i class="fa fa-microchip text-[100px] text-slate-800 rounded-xl p-2"></i>
+                            </div>
+                            <div class="mb-4">
+                                <h1 class="text-2xl font-extrabold text-center text-slate-800">Internet of Things</h1>
+                                <p class="text-slate-700 text-sm text-center mt-5 px-3">Internet of Things (IoT) adalah jaringan yang menghubungkan berbagai perangkat, seperti sensor, peralatan elektronik, dan objek lainnya, ke internet.</p>
+                            </div>
+                            <div class="mx-auto">
+                                <a href="iot.html" class="px-4 py-2 rounded-full bg-biru text-abu hover:bg-abu hover:border-4 hover:border-biru hover:text-slate-800 transition duration-300">Details...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-12 sm:flex sm:px-2 lg:px-7 xl:px-10" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="flex flex-col h-[350px] lg:h-[400px] w-[300px] rounded-lg bg-abu lg:bg-birumuda mx-auto shadow-2xl">
+                            <div class="py-5 lg:py-8 mx-auto">
+                                <i class="fa fa-code text-[100px] text-slate-800 lg:text-cremmuda rounded-xl p-2"></i>
+                            </div>
+                            <div class="mb-4">
+                                <h1 class="text-2xl font-extrabold text-center text-slate-800 lg:text-cremmuda">Programming</h1>
+                                <p class="text-slate-700 lg:text-abu text-sm text-center mt-5 px-3">Programmer adalah seseorang yang membuat dan mengembangkan Software maupun Hardware dengan menggunakan bahasa pemrograman.</p>
+                            </div>
+                            <div class="mx-auto lg:pt-3">
+                                <a href="program.html" class="px-4 py-2 rounded-full bg-biru lg:bg-cremmuda text-abu lg:text-slate-800 hover:bg-abu hover:border-4 hover:border-biru hover:text-slate-800 transition duration-300 lg:hover:bg-birumuda lg:hover:border-4 lg:hover:border-cremmuda lg:hover:text-abu">Details...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-12 lg:mt-8 sm:flex sm:px-2 md:px-5 lg:px-7 xl:px-10" data-aos="fade-down" data-aos-duration="400">
+                        <div class="flex flex-col h-[350px] w-[300px] rounded-lg mx-auto shadow-2xl">
+                            <div class="py-5 mx-auto">
+                                <i class="fa fa-network-wired text-[100px] text-slate-800 rounded-xl p-2"></i>
+                            </div>
+                            <div class="mb-4">
+                                <h1 class="text-2xl font-extrabold text-center text-slate-800">Jaringan</h1>
+                                <p class="text-slate-700 text-sm text-center mt-5 px-3">jaringan adalah sekumpulan perangkat yang terhubung untuk saling berkomunikasi dan berbagi sumber daya.</p>
+                            </div>
+                            <div class="mx-auto">
+                                <a href="jaringan.html" class="px-4 py-2 rounded-full bg-biru text-abu hover:bg-abu hover:border-4 hover:border-biru hover:text-slate-800 transition duration-300">Details...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Jurusan Section End -->
+
+    <!-- Clients Section Start -->
+    <section id="bekerjasama" class="py-24">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto mb-16 text-center">
+                    <h1 class="text-5xl font-semibold text-center text-biru lg:pt-3">Bekerjasama</h1>
+                    <h1 class="font-extrabold text-center text-slate-800">___________</h1>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <div class="mx-4 max-w-[120px] py-4" data-aos="fade-down" data-aos-duration="600">
+                        <a href="https://www.google.com/" target="_blank" class="lg:mx-6 xl:mx-8">
+                            <img src="src/img/clients/google.svg" alt="Google" /> 
+                        </a>
+                    </div>
+                    <div class="mx-4 max-w-[120px] py-4" data-aos="fade-down" data-aos-duration="800">
+                        <a href="https://www.samsung.com/id/galaxy-ai/?cid=id_pd_ppc_google_galaxy-s24-series_sustain_001-mx-s24s-24q2-ss-r1-ppc-conv-w-cpc-kwb.gen.na.smsg.core-text_warm-none-20240422_none_pfm&gad_source=1&gclid=Cj0KCQjw6uWyBhD1ARIsAIMcADqrVcXnbPyzTJ9ZllUcneqmF2WK83i4dP1dymqUGCMwG0aOycSjAVwaAtBOEALw_wcB&gclsrc=aw.ds" target="_blank" class="lg:mx-6 xl:mx-8">
+                            <img src="src/img/clients/samsung.svg" alt="samsung" />
+                        </a>
+                    </div>
+                    <div class="mx-4 max-w-[120px] py-4" data-aos="fade-down" data-aos-duration="1000">
+                        <a href="https://www.apple.com/id/iphone/?&cid=wwa-id-kwgo-iphone-slid----Announce-&mnid=siUBJGkbW-dc_mtid_209252fb69410_pcrid_696755123268_pgrid_164192290274_pexid__&mtid=209252fb69410&aosid=p238" target="_blank" class="lg:mx-6 xl:mx-8">
+                            <img src="src/img/clients/apple.svg" alt="apple" />
+                        </a>
+                    </div>
+                    <div class="mx-4 max-w-[120px] py-4" data-aos="fade-down" data-aos-duration="1200">
+                        <a href="https://www.gojek.com/id-id?gad_source=1&gclid=Cj0KCQjw6uWyBhD1ARIsAIMcADoiIWuNvu7cy5rpIGZoQQljGcz5EhAjA_jrNoyCnDQiTd-NAHn6qmsaAp01EALw_wcB" target="_blank" class="lg:mx-6 xl:mx-8">
+                            <img src="src/img/clients/gojek.svg" alt="Gojek" />
+                        </a>
+                    </div>
+                    <div class="mx-4 max-w-[120px] py-4" data-aos="fade-down" data-aos-duration="1600">
+                        <a href="https://www.telkom.co.id/sites" target="_blank" class="lg:mx-6 xl:mx-8">
+                            <img src="src/img/clients/Telkom.svg" alt="Telkom" />
+                        </a>
+                    </div>
+                    <div class="mx-4 max-w-[120px] py-4" data-aos="fade-down" data-aos-duration="1600">
+                        <a href="https://www.microsoft.com/id-id/" target="_blank" class="lg:mx-6 xl:mx-8">
+                            <img src="src/img/clients/microsoft.svg" alt="microsoft" />
+                        </a>
+                    </div>
+                    <div class="mx-4 max-w-[120px] py-4" data-aos="fade-down" data-aos-duration="2000">
+                        <a href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank" class="lg:mx-6 xl:mx-8">
+                            <img src="src/img/clients/intel.svg" alt="Intel" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients Section End -->
+
+    <!-- berita Section Start -->
+    <section id="berita">
+        <div class="w-full bg-abu py-20 xl:py-24">
+            <div class="container">
+                <div class="mx-auto flex flex-col">
+                    <div class="mb-5">
+                        <h1 class="text-5xl font-semibold text-center text-biru">Berita</h1>
+                        <h1 class="font-extrabold text-center text-slate-800">___________</h1>
+                        <h2 class="text-center text-3xl mt-8 text-slate-800">Murid <span class="text-biru">Terbaik</span></h2>
+                    </div>
+                    <div class="flex flex-wrap justify-center items-center mx-auto my-5-5 gap-y-5">
+                        <div class="px-3 md:px-6 lg:px-12 xl:px-16">
+                            <div class="w-[200px] h-[325px] bg-slate-800 shadow-xl rounded-xl">
+                                <div class="">
+                                    <img src="src/img/terbaik2.png" alt="" class="rounded-xl border-4 border-slate-800">
+                                </div>
+                                <div>
+                                    <h1 class="text-center text-lg tracking-wider text-abu">Park Jonggun</h1>
+                                    <p class="text-center text-slate-400">( Angkatan ke-2 )</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3 md:px-6 lg:px-12 xl:px-16">
+                            <div class="w-[200px] h-[325px] bg-slate-800 shadow-xl rounded-xl">
+                                <div class="">
+                                    <img src="src/img/terbaik.png" alt="" class="rounded-xl border-4 border-slate-800">
+                                </div>
+                                <div>
+                                    <h1 class="text-center text-lg tracking-wider text-abu">Lee Jihoon</h1>
+                                    <p class="text-center text-slate-400">( Angkatan ke-3 )</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-5 mt-10">
+                        <h2 class="text-center text-3xl mt-8 text-slate-800">Berita <span class="text-biru">Sekolah</span></h2>
+                    </div>
+                    <div class="w-full">
+                        <div class="mx-auto flex flex-row flex-wrap justify-center">
+                            <div class="mb-5 mx-5">
+                                <div class="w-[200px] p-2 rounded-lg bg-slate-800">
+                                    <img src="src/img/berita.png" alt="" class="rounded-sm">
+                                    <h1 class="text-center text-abu mt-1">Park jonggun menghilang setelah lulus.</h1>
+                                </div>
+                            </div>
+                            <div class="mb-5 mx-5">
+                                <div class="w-[200px] p-2 rounded-lg bg-slate-800">
+                                    <img src="src/img/berita2.jpg" alt="" class="rounded-sm ">
+                                    <h1 class="text-center text-abu mt-1">Lee Jihoon mendapatkan piala ke-105 nya.</h1>
+                                </div>
+                            </div>
+                            <div class="mb-5 mx-5">
+                                <div class="w-[200px] p-2 rounded-lg bg-slate-800">
+                                    <img src="src/img/berita3.png" alt="" class="rounded-sm ">
+                                    <h1 class="text-center text-abu mt-1">Park Hyungseok menjadi murid tertampan.</h1>
+                                </div>
+                            </div>
+                            <div class="mb-5 mx-5">
+                                <div class="w-[200px] p-2 rounded-lg bg-slate-800">
+                                    <img src="src/img/berita4.png" alt="" class="rounded-sm ">
+                                    <h1 class="text-center text-abu mt-1">Sedang ramai adu Panco antar Jurusan.</h1>
+                                </div>
+                            </div>
+                            <div class="mb-5 mx-5">
+                                <div class="w-[200px] p-2 rounded-lg bg-slate-800">
+                                    <img src="src/img/berita5.png" alt="" class="rounded-sm ">
+                                    <h1 class="text-center text-abu mt-1">Zin sukses menjadi juara 1 di Turnamen boxing.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- berita Section End -->
+
+    <!-- Footer section Start -->
+    <footer class="pt-10 bg-slate-800">
+        <div class="container ">
+            <div class="pb-12 lg:pb-16 lg:p-10 lg:flex lg:px-10">
+                <div class="lg:w-1/2 lg:flex">
+                    <div class="lg:w-1/2">
+                        <h1 class="text-3xl lg:text-2xl xl:text-3xl text-abu font-bold text-center lg:text-justify">SMK NEGERI JENIUS</h1>
+                        <h1 class="font-extrabold text-center text-abu lg:text-justify">___________</h1>
+                        <h2 class="text-center my-3 text-abu lg:text-justify"><span class="font-semibold">Alamat :</span> Jl. Puncak Blok D No.01 Jakarta Selatan, 17412</h2>
+                        <div>
+                            <div class="flex justify-center items-center lg:flex-none lg:justify-normal lg:text-justify">
+                                <i class="fa-solid fa-envelope text-abu mr-2"></i> 
+                                <h2 class="text-center text-abu">: smknegerijenius@gmail.com</h2>
+                            </div>
+                            <div class="flex justify-center items-center lg:flex-none lg:justify-normal lg:text-justify">
+                                <i class="fa-solid fa-phone text-abu mr-2"></i> 
+                                <h2 class="text-center text-abu">: +62 812 - 3456 - 7890</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 mt-10 lg:mt-0 lg:pl-20">
+                        <h1 class="text-3xl text-abu tracking-wider font-bold text-center lg:text-justify">Link</h1>
+                        <h1 class="font-extrabold text-center text-abu lg:text-justify">___________</h1>
+                        <div class="lg:flex lg:gap-x-7">
+                            <div class="mt-5 flex flex-col items-center lg:items-baseline">
+                                <a href="#main" class="mb-2 tracking-wide text-abu hover:font-bold">Beranda</a>
+                                <a href="#profil" class="mb-2 tracking-wide text-abu hover:font-bold">Profil</a>
+                                <a href="visimisi.html" class="mb-2 tracking-wide text-abu hover:font-bold">Visi-Misi</a>
+                            </div>
+                            <div class="lg:mt-5 flex flex-col items-center lg:items-baseline">
+                                <a href="#jurusan" class="mb-2 tracking-wide text-abu hover:font-bold">Jurusan</a>
+                                <a href="#berita" class="mb-2 tracking-wide text-abu hover:font-bold">Berita</a>
+                                <a href="contact.html" class="mb-2 tracking-wide text-abu hover:font-bold">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 lg:mt-0 mt-10 lg:pl-10 xl:pl-0">
+                    <h1 class="text-3xl text-abu tracking-wider font-bold text-center">Pendaftaran</h1>
+                    <h1 class="font-extrabold text-center text-abu">___________</h1>
+                    <div class="text-lg mt-5 lg:text-lg xl:text-xl text-center">
+                        <h1 class="text-abu">Daftarkan Anak Anda ke SMK Negeri Jenius sekarang dengan memencet link dibawah ini!</h1>
+                    </div>
+                    <div class="pt-5 text-center">
+                        <a href="https://ppdb.bekasikota.go.id/" target="_blank" class="px-3 py-2 rounded-full bg-abu hover:bg-slate-800 hover:border-4 hover:border-abu hover:text-abu transition duration-300">Daftar Sekarang!</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="flex justify-between py-2 px-5">
+                <div class="justify-center">
+                    <h1 class="text-abu text-xl tracking-wide">Created by <a href="https://quran.com/id/pembukaan" target="_blank">Alfath</a>!</h1>
+                </div>
+                <div class="justify-center">
+                    <div class="flex items-center">
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/alfaatt.z/?next=%2F" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-abu text-abu hover:border-slate-800 hover:bg-abu hover:text-slate-800 transition duration-300">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <!-- Github -->
+                        <a href="https://github.com/Zidansyabil" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-abu text-abu hover:border-slate-800 hover:bg-abu hover:text-slate-800 transition duration-300">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <!-- Youtube -->
+                        <a href="https://www.youtube.com/channel/UC658vDnd-VMtWLKHHBCuV9g" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-abu text-abu hover:border-slate-800 hover:bg-abu hover:text-slate-800 transition duration-300">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section End -->
+    <script src="src/js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
